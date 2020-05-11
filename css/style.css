@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+:root{
+    --color1:#C27624;
+    --color2:#34B1E4;
+    --color3:#EE7419;
+    --color4:#A5C724;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+body
+{
+    background: #f3f3f3 !important;
+}
+/* PROPRIETE */
+
+/* NAVBAR */
+nav
+{
+    background-color:#fff;
+    opacity: 0.9;
+    z-index: 2;
+    font-family: 'Lalezar', cursive;
+    border-top: 3px solid var(--color4);
+}
+.navbar-nav
+{
+   direction: rtl;
+   text-align: right;
+}
+.nav-link
+{
+    color: var(--color2) !important;
+    font-size: 1.2rem;
+    font-family: 'Lalezar', cursive;
+
+}
+.nav-link:hover
+{
+    color: var(--color4) !important;
+}
+.current
+{
+    color: var(--color4) !important;
+    border-right: 3px solid var(--color4);
+}
+@media(max-width:768px)
+{
+    .navbar-nav
+    {
+        margin-top: 1rem;
+    }
+}
+/* NAVBAR */
+img
+{
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container
+{
+    background-color: #fff !important;
+    padding: 0 !important;
+}
+
+/* FOOTER */
+footer
+{
+    display:flex !important;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    background-color: #fff;
+    color: var(--color4);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.hr
+{
+    height: 0.5px;
+    background-color:var(--color4);
+    width:60%;
+    margin:1rem auto;
+}
+
+.social-icon {
+  margin: 1rem 1rem 0rem 1rem;  
+}
+
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+}
+.social-icon li i {
+    font-size: 14px;
+    color: var(--color4);
+    border: solid 2px #F4F4F4;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    line-height: 27px;
+    margin-right: 15px;
+    transition: 1s;
+    background: #F4F4F4;
+}
+.social-icon li .yt:hover {
+    border: solid 2px #FF0000;
+    color: #ffffff;
+    background: #FF0000;
+}
+.social-icon li .fb:hover {
+    border: solid 2px #4267B2;
+    color: #ffffff;
+    background:#4267B2;
+}
+.social-icon li .tw:hover {
+    border: solid 2px #1DA1F2;
+    color: #ffffff;
+    background: #1DA1F2;
+}
+/* FOOTER */
+
+/* PROPRIETE */
+
+
+
+/* INDEX */
+
+/* SLIDER */
+#slider .carousel
+{
+    margin-top: 30px;
+}
+#slider .carousel-item,.carousel-inner
+{
+    max-height: 500px !important;
+}
+#slider .carousel-inner .overlay
+{
+    background-color: rgba(194, 118, 36,0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#slider .overlay .title
+{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+#slider .overlay .title span
+{
+    color: var(--color2);
+}
+/* SLIDER */
+
+/* SECTION 1 */
+#section1 .container:nth-child(odd) .card
+{
+    background-color: rgba(52, 177, 228,0.7);
+    
+}
+#section1 .container:nth-child(even) .card
+{
+    background-color: rgba(165, 199, 36,0.7);
+   
+}
+#section1 .container:nth-child(odd) .card a:hover
+{
+    background-color: rgba(52, 177, 228,0.7);
+    
+}
+#section1 .container:nth-child(even) .card a:hover
+{
+    background-color: rgba(165, 199, 36,0.7);
+   
+}
+#section1 .card-title
+{
+    font-family: 'Lalezar', cursive;
+    font-size: 3rem;
+    color: var(--color3);
+}
+#section1 .card-text
+{
+    font-size: 1.3rem;
+    color: #333;
+}
+
+#section1  .container:nth-child(odd) .card .col-md-4
+{
+    order: 2 !important;
+}
+#section1 .card a
+{
+    width: max-content;
+    align-self: flex-end;
+    background-color: var(--color3);
+    border: none;
+}
+#section1 .card-body
+{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-content:center;
+}
+/* SECTION 1 */
+
+/* INDEX */
+
+
+/* CREATION-COOPERATIVE */
+
+/* SECTION1 */
+#showCase .carousel
+{
+    margin-top: 30px;
+}
+#showCase .carousel-inner,#showCase .carousel-item
+  {
+      max-height: 60vh !important;
+  }
+  #showCase h2 span
+  {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  #showCase h2 .left 
+  {
+      color: #fff;
+  }
+   #showCase h2 .right
+  {
+      color:var(--color2);
+  }
+  #showCase .overlay
+  {
+    background-color:rgba(165, 199, 36,0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+/* SECTION1 */
+
+/* SECTION TRANSACTION */
+#transaction a
+  {
+      color: var(--color3);
+      font-size: 1.2rem;
+  }
+  #transaction .card-header
+  {
+      text-align: center;
+  }
+  #transaction .card-body
+  {
+      text-align: right;
+
+  }
+  
+/* SECTION TRANSACTION */
+
+/* SECTION DOCUMENT */
+#doc a
+  {
+      color: var(--color3);
+
+  }
+  #doc .pdf div
+  {
+      display: inline-block;
+  }
+  #doc i
+  {
+      display: inline-block;
+      margin-left: 8px;
+      margin-top: 4px;
+  }
+  .pdf
+  {
+      display: flex !important;
+      flex-wrap: nowrap;
+  }
+/* SECTION DOCUMENT */
+
+
+
+.creationTitle  
+  {
+    font-family: 'Lalezar', cursive;
+    color: var(--color3);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+  }
+/* CREATION-COOPERATIVE */
+
+
+
+
+/* CONTACT */
+
+/* SECTION1 */
+#showCase .carousel
+{
+    margin-top: 30px;
+}
+#showCaseContact .carousel-inner,#showCaseContact .carousel-item
+  {
+      max-height: 60vh !important;
+  }
+  #showCaseContact h2 
+  {
+    font-size: 4rem;
+    font-weight: bold;
+    color:var(--color2);
+
+  }
+  #showCaseContact .overlay
+  {
+    /* background-color:rgba(165, 199, 36,0.4); */
+    background-color:rgba(52, 177, 228,0.4) ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+/* SECTION1 */
+
+/* FORM */
+#contact-form span
+{
+    background-color: var(--color2);
+}
+.contact-title
+{
+    font-family: 'Lalezar', cursive;
+    color: var(--color2);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+#contact-form input
+{
+    text-align: right;
+}
+#contact-form input:focus,#contact-form textarea:focus
+{
+    box-shadow: none;
+}
+
+#contact-form textarea
+{
+    text-align: right;
+    direction: rtl;
+}
+#contact-form button
+{
+   background-color: var(--color2);
+   color: #fff;
+}
+.close
+{
+    background-color: #fff !important;
+}
+.valid p::after
+{
+   content:'تم إرسال الرسالة بنجاح';
+}
+.valid span
+{
+    color: green;
+    background-color: #fff !important;
+
+}
+.invalid span
+{
+    color: red;
+    background-color: #fff !important;
+
+}
+.valid .modal-footer button
+{
+    background-color: green !important;
+}
+.invalid p::after
+{
+   content: 'لم يتم ارسال الرسالة بنجاح';
+}
+.invalid .modal-footer button
+{
+    background-color: red !important;
+}
+/* FORM */
+/* TABLES */
+.ContactTable thead
+{
+    background-color: var(--color2);
+    color: #fff;
+}
+.ContactTable tbody tr:nth-child(odd)
+{
+    background-color: #F4F4F4
+}
+.ContactTable tbody tr:nth-child(even)
+{
+    background-color: #FFF;
+}
+
+/* TABLES */
+
+/* CONTACT */
+
+/* FAQ */
+
+
+
+/* SECTION 1 */
+
+#showCaseFAQ .carousel
+{
+    margin-top: 30px;
+}
+#showCaseFAQ .carousel-inner,#showCase .carousel-item
+  {
+      max-height: 60vh !important;
+  }
+  #showCaseFAQ h2 
+  {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--color1);
+  }
+ 
+  #showCaseFAQ .overlay
+  {
+    /* background-color:rgba(165, 199, 36,0.2); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+/* SECTION 1 */
+
+/* SECTION 2 */
+  #FAQ h5 
+  {
+      color: var(--color3);
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-align: right;
+  }
+  #FAQ i
+  {
+      color: var(--color3);
+  }
+  #FAQ .card-header
+  {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+  }
+  #FAQ .card-body
+  {
+      text-align: right;
+
+  }
+  #FAQ .card .card-header
+  {
+      background-color: rgba(0, 0, 0, 0.637);
+  }
+ 
+/* SECTION 2 */
+
+
+
+
+
+
+
+
+/* FAQ */
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+ 
+  
+
+  
+
+ 
+
+
+
+
