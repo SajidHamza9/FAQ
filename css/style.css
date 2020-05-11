@@ -53,6 +53,13 @@ nav
     .navbar-nav
     {
         margin-top: 1rem;
+
+    }
+    #showCaseFAQ h2
+    {
+      font-size: 4rem !important;
+      font-weight: bold;
+      color: var(--color1);
     }
 }
 /* NAVBAR */
@@ -455,9 +462,9 @@ footer
   {
       max-height: 60vh !important;
   }
-  #showCaseFAQ h2 
+  #showCaseFAQ h2
   {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: bold;
     color: var(--color1);
   }
