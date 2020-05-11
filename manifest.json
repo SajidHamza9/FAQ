@@ -1,7 +1,7 @@
 {
     "name": "odco",
     "short_name": "odco",
-    "start_url": "html/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#A5C724",
     "theme_color": "#A5C724",
